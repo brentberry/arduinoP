@@ -27,6 +27,7 @@ void setClockScale(VOLTS __x)
     #if !defined(enable_serial) && defined(ENABLE_UPDATER)
       ClockedSerial.begin(UPD_BAUD);
     #endif
-  #else
-      clock = CS_16MHZ;
-  #endif
+  //#else
+    //  clock = CS_16MHZ;
+  //#endif
+//not needed 
