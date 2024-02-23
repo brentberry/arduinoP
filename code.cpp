@@ -14,7 +14,7 @@ void setClockScale(VOLTS __x)
     : "r0"
   ); /*[2]*/
 }
-
+//hi
   #if defined(ENABLE_3V3FIX)
       // Stop serial if running
     #if !defined(enable_serial) && defined(ENABLE_UPDATER)
